@@ -1,9 +1,10 @@
-.flex-container {
+ .flex-container { 
     display: flex;
+    flex-direction: column;
 }
 .flex-container div {
     color: antiquewhite;
     border: 3px solid blue;
     height: 100px;
-    flex: 1;
+    flex: 1 1 auto; 
 }
